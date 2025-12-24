@@ -97,8 +97,8 @@
         width:350px;
     }
     .textBoxRight{
-        height: 100px;
-        font-size: 5px;
+        height: fit-content;
+        font-size: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
