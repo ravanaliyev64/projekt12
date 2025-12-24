@@ -95,5 +95,7 @@
         height:450px;
         width:350px;
     }
-   
+    .textBoxRight{
+        font-size: 10px;
+    }
 }
