@@ -203,51 +203,182 @@
     justify-content: center;
 }
 
-.section4{
-    background-image:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/sekil8.jpg);
+.section4 {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/sekil8.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1500px;
 }
-.boxSect img{
-    height:100% ;
+
+.boxSect img {
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 100%;
 }
-.boxSect{
+
+.boxSect {
     height: 300px;
     width: 300px;
 }
-.textSect h2{
+
+.textSect h2 {
     margin: 30px 0px;
     color: #98bba4;
 }
-.sectionCont{
+
+.sectionCont {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
 }
 
-.section5{
+.section5 {
     background-image: url(img/sekil10.jpg);
     background-position: center;
     background-size: 1500px;
     background-repeat: no-repeat;
 
 }
-.sectText{
+
+.sectText {
     padding-top: 70px;
     text-align: center;
 }
-.sectText p{
-   padding: 50px 0px;
-}
-.sectText h3{
-   font-size: 25px;
+
+.sectText p {
+    padding: 50px 0px;
 }
 
+.sectText h3 {
+    font-size: 25px;
+}
+
+.section6 {
+    background-color: #f8f8f8;
+}
+
+.section6 h1 {
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 35px;
+}
+
+.secImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.secImg {
+    height: 400px;
+    width: 450px;
+}
+
+.secImg2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.secImg2 {
+    height: 400px;
+    width: 600px;
+}
+
+.containerSect {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.secImg3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.secImg3 {
+    height: 340px;
+    width: 343px;
+}
+
+.sectBox {
+    height: 343px;
+    width: 343px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg4 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.secImg4 {
+    height: 343px;
+    width: 343px;
+}
+
+.containerSect2 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.secImg5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.secImg5 {
+    height: 400px;
+    width: 600px;
+}
+
+.secImg6 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.secImg6 {
+    height: 400px;
+    width: 450px;
+}
+
+.containerSect3 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button2 {
+    padding: 15px;
+    width: 200px;
+    font-size: 15px;
+    background-color: #98bba4;
+    color: white;
+    border: none;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #83a28e;
+}
+
+.boxButton {
+    display: flex;
+    justify-content: center;
+}
 
 @media(max-width:1100px) {
     .containerBox {
@@ -327,17 +458,86 @@
         padding: 20px 0px;
         font-size: 20px;
     }
-    .sectionCont{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-.boxSect{
-    height: 200px;
-    width: 200px;
-}
-.sectText h3{
-   font-size: 15px;
-}
+
+    .sectionCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .boxSect {
+        height: 200px;
+        width: 200px;
+    }
+
+    .sectText h3 {
+        font-size: 15px;
+    }
+
+    .section6 h1 {
+        text-align: center;
+        padding: 30px 0px;
+        font-size: 20px;
+    }
+
+    .containerSect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .secImg {
+        height: 300px;
+        width: 300px;
+    }
+
+    .secImg2 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .containerSect2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .secImg3 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .secImg4 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .sectBox {
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerSect3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .secImg5 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .secImg6 {
+        height: 300px;
+        width: 300px;
+    }
 }
