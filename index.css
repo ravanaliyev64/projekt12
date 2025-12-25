@@ -230,6 +230,25 @@
     padding-top: 20px;
 }
 
+.section5{
+    background-image: url(img/sekil10.jpg);
+    background-position: center;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+
+}
+.sectText{
+    padding-top: 70px;
+    text-align: center;
+}
+.sectText p{
+   padding: 50px 0px;
+}
+.sectText h3{
+   font-size: 25px;
+}
+
+
 @media(max-width:1100px) {
     .containerBox {
         display: flex;
@@ -318,5 +337,7 @@
     height: 200px;
     width: 200px;
 }
-
+.sectText h3{
+   font-size: 15px;
+}
 }
