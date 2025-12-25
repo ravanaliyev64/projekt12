@@ -71,6 +71,68 @@
     gap: 40px;
 }
 
+.section2{
+    background-image: linear-gradient(#f1e7e6, #98bba4);
+}
+.boxContainer{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+}
+.textBox span{
+   letter-spacing: 4px;
+}
+
+.textBox h3{
+   font-size: 30px;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.img1{
+    height: 700px;
+    width: 500px;
+}
+
+.container{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img2{
+    height: 300px;
+    width: 600px;
+}
+
+.container2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 @media(max-width:1100px){
     .containerBox{
         display: flex;
@@ -102,5 +164,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxContainer{
+        height: 350px;
+        width: 350px;
+    }
+    .img1{
+        height: 450px;
+        width: 350px;
+    }
+    .img2{
+        height: 350px;
+        width: 350px;
     }
 }
