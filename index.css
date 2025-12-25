@@ -1,68 +1,72 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.section1{
+.section1 {
     background-image: linear-gradient(#f2f2f2, #f1e7e6)
-    
 }
 
-.imgBoxLeft img{
+.imgBoxLeft img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.imgBoxLeft{
+.imgBoxLeft {
     height: 450px;
     width: 350px;
 }
-.imgBoxRight img{
+
+.imgBoxRight img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.imgBoxRight{
+.imgBoxRight {
     height: 450px;
     width: 700px;
 }
-.containerBox{
+
+.containerBox {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.imgBoxLeft2 img{
+.imgBoxLeft2 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.imgBoxLeft2{
+
+.imgBoxLeft2 {
     height: 800px;
     width: 500px;
 }
 
-.imgBoxRight2 img{
+.imgBoxRight2 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.imgBoxRight2{
+
+.imgBoxRight2 {
     height: 600px;
     width: 500px;
 }
-.containerBox2{
+
+.containerBox2 {
     margin-top: 60px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.textBoxRight{
+.textBoxRight {
     height: 200px;
     background-color: white;
     display: flex;
@@ -72,106 +76,114 @@
     gap: 40px;
 }
 
-.section2{
+.section2 {
     background-image: linear-gradient(#f1e7e6, #98bba4);
 }
-.boxContainer{
+
+.boxContainer {
     height: 300px;
     width: 600px;
     background-color: white;
 }
-.textBox span{
-   letter-spacing: 4px;
+
+.textBox span {
+    letter-spacing: 4px;
 }
 
-.textBox h3{
-   font-size: 30px;
+.textBox h3 {
+    font-size: 30px;
 }
-.img1 img{
+
+.img1 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.textBox{
+.textBox {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
-.img1 img{
+.img1 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.img1{
+
+.img1 {
     height: 700px;
     width: 500px;
 }
 
-.container{
+.container {
     padding-top: 60px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.img2 img{
+.img2 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.img2{
+.img2 {
     height: 300px;
     width: 600px;
 }
 
-.container2{
+.container2 {
     padding-top: 20px;
     display: flex;
     justify-content: center;
 }
 
-.section3{
+.section3 {
     background-color: #f1e7e6;
 }
-.section3 h1{
+
+.section3 h1 {
     color: #cfaaa6;
     text-align: center;
     padding: 50px 0px;
 }
 
-.boxSection{
+.boxSection {
     height: 350px;
     width: 400px;
     background-color: white;
 }
 
-.imgSection img{
+.imgSection img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.boxText{
+
+.boxText {
     text-align: justify;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.boxText h3{
+
+.boxText h3 {
     margin: 20px 0px;
     letter-spacing: 5px;
 }
-.containerSection{
+
+.containerSection {
     padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.button{
+.button {
     padding: 15px;
     width: 200px;
     font-size: 15px;
@@ -181,80 +193,130 @@
     margin: 50px 0px;
     cursor: pointer;
 }
-.button:hover{
+
+.button:hover {
     background-color: #83a28e;
 }
-.buttonBox{
+
+.buttonBox {
     display: flex;
     justify-content: center;
 }
 
+.section4{
+    background-image:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/sekil8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+}
+.boxSect img{
+    height:100% ;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.boxSect{
+    height: 300px;
+    width: 300px;
+}
+.textSect h2{
+    margin: 30px 0px;
+    color: #98bba4;
+}
+.sectionCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
 
-@media(max-width:1100px){
-    .containerBox{
+@media(max-width:1100px) {
+    .containerBox {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .containerBox2{
+
+    .containerBox2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .imgBoxRight{
+
+    .imgBoxRight {
         height: 450px;
         width: 350px;
-        
+
     }
-    .imgBoxLeft2{
+
+    .imgBoxLeft2 {
         height: 450px;
         width: 350px;
     }
-    .imgBoxRight2{
-        height:450px;
-        width:350px;
+
+    .imgBoxRight2 {
+        height: 450px;
+        width: 350px;
     }
-    .textBoxRight{
+
+    .textBoxRight {
         height: fit-content;
         font-size: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .container{
+
+    .container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .boxContainer{
+
+    .boxContainer {
         height: 350px;
         width: 350px;
     }
-    .img1{
+
+    .img1 {
         height: 450px;
         width: 350px;
     }
-    .img2{
+
+    .img2 {
         height: 350px;
         width: 350px;
     }
-    .containerSection{
+
+    .containerSection {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
     }
-    .boxSection{
-    height: 250px;
-    width: 300px;
-    
+
+    .boxSection {
+        height: 250px;
+        width: 300px;
+
+    }
+
+    .section3 h1 {
+        color: #cfaaa6;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    .sectionCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
 }
-.section3 h1{
-    color: #cfaaa6;
-    text-align: center;
-    padding: 20px 0px;
-    font-size: 20px;
+.boxSect{
+    height: 200px;
+    width: 200px;
 }
 
 }
