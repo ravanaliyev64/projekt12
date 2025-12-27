@@ -178,7 +178,6 @@
 }
 
 .container {
-
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -187,6 +186,7 @@
 
 .containerAll {
     padding-top: 30px;
+    padding-bottom: 50px;
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -216,11 +216,14 @@
     color: #cfaaa6;
     text-align: center;
     padding: 50px 0px;
+    font-family: 'PT Sans', sans-serif;
+
+
 }
 
 .boxSection {
     height: 350px;
-    width: 400px;
+    width: 350px;
     background-color: white;
 }
 
@@ -238,8 +241,17 @@
 }
 
 .boxText h3 {
-    margin: 20px 0px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    color: #666666;
+    margin: 10px 0px;
     letter-spacing: 5px;
+}
+
+.boxText p{
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .containerSection {
@@ -276,6 +288,8 @@
     background-size: 1500px;
 }
 
+
+
 .boxSect img {
     height: 100%;
     width: 100%;
@@ -291,6 +305,9 @@
 .textSect h2 {
     margin: 30px 0px;
     color: #98bba4;
+}
+.textSect p{
+    padding-bottom: 30px;
 }
 
 .sectionCont {
@@ -319,6 +336,8 @@
 
 .sectText h3 {
     font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
 
 .section6 {
@@ -377,6 +396,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 20px;
 }
 
 .secImg4 img {
@@ -455,6 +478,7 @@
 }
 
 .sectText {
+    font-style: italic;
     text-align: center;
     padding: 60px 0px;
 }
@@ -465,11 +489,25 @@
 }
 
 @media(max-width:1100px) {
+    .boxText p{
+    padding: 5px;
+    text-align: center;
+
+}
+    .textBox h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.textBox p {
+    margin-bottom: 30px;
+}
     .container2{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .containerAll {
     padding-top: 30px;
     display: flex;
@@ -678,5 +716,14 @@
     gap: 20px;
     width: 350px;
     color: #444448;
+}.sectBox {
+    height: 343px;
+    width: 343px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-style: italic;
 }
 }
